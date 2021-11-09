@@ -21,19 +21,21 @@ The NASA PeTaL (Periodic Table of Life) Project is an open source artificial int
 The aim of this project is to utilize SciBERT to identify biomimicry papers in the scientific literature. 
 
 ## Files
-```scibert_binary_classification```
+```scibert_binary_classification``` trains the model for binary (Y/N) classification of biomimicry papers.
+```binary_labeler_scibert.py``` main file to train SciBERT on biomimicry papers.
 
 ## Getting Started
 
 ## Running SciBERT
 
 ## More Information
-
+ * [SciBERT: A Pretrained Language Model for Scientific Text](https://arxiv.org/abs/1903.10676)
+ * [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 ## Future Work
- * Divide snorkel into multiple models that each handle a subset of functions to increase computing efficiency.
- * Write rules for the remaining 60 biomimicry functions.
- * Include 'regular expression' labeling functions to increase coverage.
+ * Integrate work with PeTaL Pipeline.
+ * X
+ * X
 
 # Contact
 For questions contact Alexandra Ralevski (alexandra.ralevski@gmail.com)
