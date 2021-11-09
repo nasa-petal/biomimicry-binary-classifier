@@ -6,8 +6,6 @@ The NASA PeTaL (Periodic Table of Life) Project is an open source artificial int
 
 [NASA PeTaL Project Homepage](https://www1.grc.nasa.gov/research-and-engineering/vine/petal/)
 
-[See our other work with BERT here](https://github.com/nasa-petal/PeTaL-labeller)
-
 # Links
  * [Overview](#overview)
  * [Files](#files)
@@ -22,6 +20,7 @@ The aim of this project is to utilize SciBERT to identify biomimicry papers in t
 
 ## Files
 ```scibert_binary_classification``` trains the model for binary (Y/N) classification of biomimicry papers.
+
 ```binary_labeler_scibert.py``` main file to train SciBERT on biomimicry papers.
 
 ## Getting Started
