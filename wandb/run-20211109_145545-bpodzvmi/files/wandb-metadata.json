@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-11-09T22:55:51.332200",
+    "startedAt": "2021-11-09T22:55:45.722916",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"31291086-9e54-455d-b5f5-226d3d0fe791\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\ARALEV~1\\AppData\\Local\\Temp\\tmp-8088XG2FUzESuuFE.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/ARalevski/nasa_petal_scibert.git",
+        "commit": "682846df9514680fe64dd991184fed121e229f08"
+    },
+    "email": "alexandra.ralevski@gmail.com",
+    "root": "C:/Users/ARalevski/Documents/nasa_petal_scibert",
+    "host": "DESKTOP-OL6Q1JB",
+    "username": "ARalevski",
+    "executable": "C:\\Users\\ARalevski\\miniconda3\\envs\\snorkel\\python.exe"
+}
