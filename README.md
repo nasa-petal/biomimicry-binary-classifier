@@ -33,8 +33,8 @@ The aim of this project is to utilize SciBERT to identify biomimicry papers in t
 
 ## Future Work
  * Integrate work with PeTaL Pipeline.
- * X
- * X
+ * Expand training set of both positive and negative papers.
+ * Compare results to Support Vector Machine work from Allen Institute for AI (AI2).
 
 # Contact
 For questions contact Alexandra Ralevski (alexandra.ralevski@gmail.com)
