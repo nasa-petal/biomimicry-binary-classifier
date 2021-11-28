@@ -10,7 +10,7 @@ The NASA PeTaL (Periodic Table of Life) Project is an open source artificial int
  * [Overview](#overview)
  * [Files](#files)
  * [Getting Started](#getting-started)
- * [Running Snorkel](#running-snorkel)
+ * [Running SciBERT](#running-scibert)
  * [More Informaion](#more-information)
  * [Future Work](#future-work)
  * [Contact](#contact)
