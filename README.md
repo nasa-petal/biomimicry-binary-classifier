@@ -23,10 +23,6 @@ The aim of this project is to utilize SciBERT to identify biomimicry papers in t
 
 ```binary_labeler_scibert.py``` main file to train SciBERT on biomimicry papers.
 
-## Getting Started
-
-## Running SciBERT
-
 ## More Information
  * [SciBERT: A Pretrained Language Model for Scientific Text](https://arxiv.org/abs/1903.10676)
  * [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
