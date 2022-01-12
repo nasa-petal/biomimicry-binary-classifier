@@ -19,6 +19,7 @@ from torch.utils.data import TensorDataset, random_split
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from train import train
 from nltk.tokenize import word_tokenize
+from sklearn.model_selection import train_test_split
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -83,8 +84,10 @@ def setup_dataset():
     regular_list = [word_tokenize(a) for a in abstract]
     tokens_flat = [item for sublist in regular_list for item in sublist]
 
+    new_tokens_flat,_ = train_test_split(tokens_flat, test_size=20, train_size=50000)
+
     tokenizer = AutoTokenizer.from_pretrained("allenai/scibert_scivocab_uncased")
-    tokenizer.add_tokens(tokens_flat)
+    tokenizer.add_tokens(new_tokens_flat)
 
     print('SciBERT tokenizer loaded')
 
