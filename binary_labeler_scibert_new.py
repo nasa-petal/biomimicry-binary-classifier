@@ -50,7 +50,7 @@ def setup_dataset():
             - **train_dataset** (torch.utils.data.TensorDataset): pitch distribution
             - **val_dataset** (torch.utils.data.TensorDataset): pitch to chord distribution
     """
-    filename = 'scibert_golden.csv'
+    filename = 'golden_1-27-22.csv'
     if (not os.path.exists(filename)):
         url = 'https://drive.google.com/file/d/1eOLNOl6ZMz4UxQ7qbSI-bJSSNkmNZjr9/view?usp=sharing'
         gdown.download(url, filename, quiet=False)
