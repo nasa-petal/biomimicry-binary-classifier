@@ -17,7 +17,7 @@ This README was last updated on 24 February 2022.
 The aim of this project is to utilize SciBERT to identify biomimicry papers in the scientific literature using binary classification (Y/N). 
 
 ## Files
-```binary_labeler_scibert_new.py``` main file to train SciBERT on biomimicry papers.
+```binary_labeler_scibert_new.py``` main file to train and test SciBERT
 
 ```golden_1-27-22.csv``` training data
 
