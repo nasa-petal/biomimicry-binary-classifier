@@ -2,6 +2,8 @@
 
 The NASA PeTaL (Periodic Table of Life) Project is an open source artificial intelligence design tool that leverages data and information from nature and technology to advance biomimicry R&D.
 
+This README was last updated on 24 February 2022.
+
 # Links
  * [Overview](#overview)
  * [Files](#files)
@@ -12,7 +14,7 @@ The NASA PeTaL (Periodic Table of Life) Project is an open source artificial int
  * [Contact](#contact)
   
 ## Overview
-The aim of this project is to utilize SciBERT to identify biomimicry papers in the scientific literature. 
+The aim of this project is to utilize SciBERT to identify biomimicry papers in the scientific literature using binary classification (Y/N). 
 
 ## Files
 ```binary_labeler_scibert_new.py``` main file to train SciBERT on biomimicry papers.
