@@ -1,4 +1,4 @@
-# Binary Classification of Biomimicry Papers Using SciBERT for the NASA PeTaL Project
+# Binary Classification of Biomimicry Papers Using SciBERT
 
 The NASA PeTaL (Periodic Table of Life) Project is an open source artificial intelligence design tool that leverages data and information from nature and technology to advance biomimicry R&D.
 
